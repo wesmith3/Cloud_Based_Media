@@ -8,6 +8,8 @@ function Clouds() {
   return (
     <div className='clouds'>
         <img alt='cloud1' src={cloud1} className='cloudOne'/>
+        <img alt="cloud1" src={cloud1}  className='stillCloud'/>
+        <img alt="cloud1" src={cloud1}  className='leftCloud'/>
         <img alt='cloud2' src={cloud2} className='cloudTwo'/>
         <img alt='cloud3' src={cloud3} className='cloudThree'/>
         <img alt='cloud4' src={cloud4} className='cloudFour'/>
