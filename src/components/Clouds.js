@@ -1,4 +1,4 @@
-import React from 'react'
+import cloud1 from './pics/cloud1.png'
 
 function Clouds() {
   return (
