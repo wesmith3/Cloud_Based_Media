@@ -10,4 +10,31 @@
     position: absolute;
     bottom: 0;
     max-width: 100%;
+    animation: animate calc(8s * var(--1)) linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(-100%);
+  }
+  100%
+  {
+    transform: translateX(100%);
+  }
+}
+.cloudOne{
+  --i: 1;
+}
+.cloudTwo{
+  --i: 2;
+}
+.cloudThree{
+  --i: 3;
+}
+.cloudFour{
+  --i: 4;
+}
+.cloudFive{
+  --i: 5;
 }
