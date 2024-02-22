@@ -6,7 +6,7 @@ import cloud5 from './pics/cloud5.png'
 
 function Clouds() {
   return (
-    <div>
+    <div className='clouds'>
         <img alt='cloud1' src={cloud1}/>
         <img alt='cloud1' src={cloud1}/>
         <img alt='cloud1' src={cloud1}/>
