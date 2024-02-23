@@ -5,7 +5,13 @@ function Footer() {
     <div>
         <Segment>
             <Container>
-                
+                <Grid>
+                    <Grid.Row>
+                        <Grid.Column>
+                            
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
             </Container>
         </Segment>
       
