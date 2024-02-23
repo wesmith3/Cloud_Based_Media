@@ -24,9 +24,14 @@ function Footer() {
               </Grid.Column>
               <Grid.Column>
                 <Header />
+                <List>
+                    <List.Item>
+                        Wesley Smith
+                    </List.Item>
+                </List>
               </Grid.Column>
               <Grid.Column>
-                
+
               </Grid.Column>
             </Grid.Row>
           </Grid>
