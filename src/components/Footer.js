@@ -10,6 +10,9 @@ function Footer() {
                         <Grid.Column>
                             <Header>
                                 <List>
+                                    <List.Item>Sitemap</List.Item>
+                                    <List.Item>Contact Us</List.Item>
+                                    <List.Item>FAQ's</List.Item>
                                 </List>
                             </Header>
                         </Grid.Column>
