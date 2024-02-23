@@ -8,7 +8,10 @@ function Footer() {
                 <Grid>
                     <Grid.Row>
                         <Grid.Column>
-                            
+                            <Header>
+                                <List>
+                                </List>
+                            </Header>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
