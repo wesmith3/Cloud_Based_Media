@@ -14,6 +14,16 @@ function NavBar() {
           About Us
         </Button>
       </Link>
+      <Link to='/services'>
+        <Button className='menu-btn'>
+          Services
+        </Button>
+      </Link>
+      <Link to='/portfolio'>
+        <Button className='menu-btn'>
+          Portfolio
+        </Button>
+      </Link>
     </div>
   )
 }
