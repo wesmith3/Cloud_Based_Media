@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #00c1e0 !important;
+    color: white !important;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.navbar .menu-btn {
+    background-color: #00c1e0 !important;
+    color: white !important;
+    padding: 10px !important;
+    font-family: Pacifico cursive !important;
+    font-size: small !important;
+    text-decoration: none !important;
+    position: relative !important;
+}
+.menu {
+    background-color: white !important;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.menu .menu-btn {
+    background-color: white !important;
+    color: grey !important;
+    padding: 10px !important;
+    font-family: Pacifico cursive !important;
+    font-size: small !important;
+    text-decoration: none !important;
+    position: relative !important;
+}
+.menu-btn:hover {
+    color: #007486 !important;
+}  
+.menu-btn:hover::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: -3px !important;
+    width: 100% !important;
+    height: 2px !important;
+    background-color: #444 !important;
+}
