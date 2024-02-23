@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react'
+import '../styles/navbar.css'
 
-function NavBar() {
+function NavBar({ style }) {
+
   return (
-    <div>
+    <div className={style ? "navbar" : "menu" }>
       <Link to='/'>
         <Button className='menu-btn'>
           Home
@@ -35,7 +37,7 @@ function NavBar() {
         </Button>
       </Link>
     </div>
-  )
+  );
 }
 
 export default NavBar
