@@ -1,0 +1,34 @@
+.brand-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+  
+.fb-icon:hover {
+    color: #1877F2;
+    transform: scale(1.2);
+}
+.tt-icon:hover {
+    color: black;
+    transform: scale(1.2);
+}
+.x-icon:hover {
+    color: black;
+    transform: scale(1.2);
+}
+.insta-icon:hover {
+    color: #E4405F;
+    transform: scale(1.2);
+}
+.yt-icon:hover {
+    color: #FF0000;
+    transform: scale(1.2);
+}
+.ks-icon:hover {
+    color: #2BDE73;
+    transform: scale(1.2);
+}
+.footer {
+    color: grey !important
+}
