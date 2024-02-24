@@ -6,6 +6,9 @@ import {
   List,
   Button,
 } from "semantic-ui-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXTwitter, faTiktok, faInstagram, faYoutube, faFacebook, faKickstarter } from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer() {
   return (
@@ -31,7 +34,17 @@ function Footer() {
                 </List>
               </Grid.Column>
               <Grid.Column>
-
+              <Header as="h4">
+                  Follow Cloud Based Media!
+                </Header>
+                <div className="brand-icons">
+                  <FontAwesomeIcon className="fb-icon" size="3x" icon={faFacebook}/>
+                  <FontAwesomeIcon className="tt-icon" size="3x" icon={faTiktok} />
+                  <FontAwesomeIcon className="x-icon" size="3x" icon={faXTwitter}/>
+                  <FontAwesomeIcon className="insta-icon" size="3x" icon={faInstagram}/>
+                  <FontAwesomeIcon className="yt-icon" size="3x" icon={faYoutube}/>
+                  <FontAwesomeIcon className="ks-icon" size="3x" icon={faKickstarter} />
+                </div>
               </Grid.Column>
             </Grid.Row>
           </Grid>
